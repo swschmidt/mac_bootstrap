@@ -8,7 +8,6 @@ apps=(
   visual-studio-code
   github
   iterm2
-  powershell
   brave-browser
   microsoft-edge
   skitch
@@ -28,7 +27,7 @@ formula=(
 )
 
 #Retired Formula
-#
+#powershell
 
 # Install apps
 echo "Installing apps..."
