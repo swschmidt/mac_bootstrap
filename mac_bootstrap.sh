@@ -19,7 +19,7 @@ apps=(
   sublime-text
   slack
   teamviewer
-  tor
+  tor-browser
   microsoft-office
   onedrive
   dropbox
@@ -28,6 +28,8 @@ apps=(
   lastpass
   whatsapp
   ccleaner
+  sublime-text
+  the-unarchiver
 )
 
 #ToBeAdded
