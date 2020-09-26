@@ -21,6 +21,13 @@ apps=(
   teamviewer
   tor
   microsoft-office
+  onedrive
+  dropbox
+  google-chrome
+  zoom.us
+  lastpass
+  whatsapp
+  ccleaner
 )
 
 #ToBeAdded
