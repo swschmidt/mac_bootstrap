@@ -3,6 +3,10 @@
 #install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+#install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
 #Apps to install
 apps=(
   visual-studio-code
@@ -13,10 +17,13 @@ apps=(
   skitch
   firefox
   sublime-text
+  slack
+  teamviewer
+  tor
+  microsoft-office
 )
 
 #ToBeAdded
-#Tor
 #Automox
 
 
@@ -24,10 +31,11 @@ apps=(
 formula=(
   git
   htop
+  node
 )
 
-#Retired Formula
-#powershell
+# optional formula
+# powershell
 
 # Install apps
 echo "Installing apps..."
