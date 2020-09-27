@@ -21,20 +21,16 @@ apps=(
   teamviewer
   tor-browser
   microsoft-office
-  onedrive
+#  onedrive
   dropbox
   google-chrome
-  zoom.us
+  zoomus
   lastpass
   whatsapp
   ccleaner
   sublime-text
   the-unarchiver
 )
-
-#ToBeAdded
-#Automox
-
 
 #Formula to install
 formula=(
@@ -45,6 +41,8 @@ formula=(
 
 # optional formula
 # powershell
+# onedrive
+# automox
 
 # Install apps
 echo "Installing apps..."
