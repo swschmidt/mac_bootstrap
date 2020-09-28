@@ -30,6 +30,7 @@ apps=(
   ccleaner
   sublime-text
   the-unarchiver
+  grammarly
 )
 
 #Formula to install
@@ -47,7 +48,8 @@ formula=(
 # Install apps
 echo "Installing apps..."
 read -p "Press any key to continue... " -n1 -s
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
+#brew cask install --appdir="/Applications" ${apps[@]}
 
 # Install formula
 echo "Installing formula..."
