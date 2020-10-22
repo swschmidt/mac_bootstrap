@@ -7,7 +7,7 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-#Apps to install
+# Casks to install
 apps=(
   visual-studio-code
   github
@@ -21,7 +21,6 @@ apps=(
   teamviewer
   tor-browser
   microsoft-office
-#  onedrive
   dropbox
   google-chrome
   zoomus
@@ -31,6 +30,11 @@ apps=(
   sublime-text
   the-unarchiver
   grammarly
+  microsoft-teams
+  docker
+  spotify
+  font-hack-nerd-font
+  tor-browser
 )
 
 #Formula to install
