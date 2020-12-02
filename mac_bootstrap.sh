@@ -1,11 +1,13 @@
 #!/bin/sh
 
-#install brew
+# install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-#install Oh My Zsh
+# install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# brew taps
+brew tap homebrew/cask-fonts
 
 # Casks to install
 apps=(
@@ -23,7 +25,7 @@ apps=(
   microsoft-office
   dropbox
   google-chrome
-  zoomus
+  zoom
   lastpass
   whatsapp
   ccleaner
