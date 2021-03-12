@@ -37,6 +37,7 @@ apps=(
   spotify
   font-hack-nerd-font
   tor-browser
+  authy
 )
 
 #Formula to install
