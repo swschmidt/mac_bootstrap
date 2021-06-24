@@ -7,7 +7,7 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # brew taps
-brew tap homebrew/cask-fonts
+#brew tap homebrew/cask-fonts
 
 # Casks to install
 apps=(
@@ -35,7 +35,6 @@ apps=(
   microsoft-teams
   docker
   spotify
-  font-hack-nerd-font
   tor-browser
   authy
 )
