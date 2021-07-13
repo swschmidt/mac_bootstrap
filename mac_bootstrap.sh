@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# install SourceCodePro font
+copy ./SourceCodePro ~/Library/Fonts/
+
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
